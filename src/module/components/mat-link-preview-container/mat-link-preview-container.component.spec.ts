@@ -3,7 +3,9 @@ import {EventEmitter} from '@angular/core';
 import {Link} from 'ngx-linkifyjs';
 import {MatLinkPreviewContainerComponent} from './mat-link-preview-container.component';
 import {MatLinkPreviewComponent, MatLinkPreviewService} from '../../..';
-import {MatButtonModule, MatCardModule, MatProgressSpinnerModule} from '@angular/material';
+import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner'
 import {FormsModule} from '@angular/forms';
 
 describe('MatLinkPreviewContainerComponent', () => {
